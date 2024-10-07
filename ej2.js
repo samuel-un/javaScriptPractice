@@ -30,3 +30,19 @@ trueResult = values[0] || values[2]; //or
 console.log("2. Resultado true", trueResult);
 
 // tercera parte
+
+let num1 = values[1]; //5
+let num2 = values[5];//2
+
+let sum = num1 + num2;
+let sub = num1 - num2;
+let mult = num1 * num2;
+let div = num1 / num2;
+let mod = num1 % num2;
+
+
+console.log("Suma: " + sum);
+console.log("Resta: " + sub);
+console.log("Multiplicación: " + mult);
+console.log("División: " + div);
+console.log("Módulo: " + mod);
