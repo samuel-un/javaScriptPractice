@@ -1,4 +1,4 @@
-// Primer challenge de 2023
+// Primer challenge de 2023 midudev
 
 function findFirstRepeated(giftsIds) {
     const found = new Set(); // se crea un conjunto vacío llamado found para almacenar los números de identificación que ya se han encontrado
