@@ -1,5 +1,5 @@
 /**
- * Ejercicio 012. 
+ * Ejercicio 013. 
  * Escribir una función llamada password que reciba un string y retorne un nuevo string realizando los siguientes cambios: Las mayúsculas se reemplazan por minúsculas. 
  * Se eliminan los espacios en blanco.
  * Reemplaza el caracter “a” por “4”.
