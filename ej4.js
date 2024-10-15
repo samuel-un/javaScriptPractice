@@ -18,3 +18,38 @@
  * coinciden, se muestra un mensaje al usuario diciéndole que la letra que ha indicado no es
  * correcta. En otro caso, se muestra un mensaje indicando que el número y la letra de DNI son correctos.
  */
+
+let dniLetters = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E', 'T'];
+let dniNumber = 12345678;
+let enteredLetter = "Z";
+let calculatedLetter;
+
+console.log("El número de DNI a validar es el: " + dniNumber);
+console.log("La letra introducida es la: " + enteredLetter);
+
+if (dniNumber < 10000000 || dniNumber > 99999999){
+    console.log("El número es incorrecto.");
+
+} else if (enteredLetter.length > 1) {
+    console.log("Solo puedes introducir una letra.");
+} 
+else{
+    generatedLetter();
+
+}
+
+function generatedLetter(){
+    numGeneratedLetter = dniNumber % 23;
+    calculatedLetter = dniLetters[numGeneratedLetter];
+
+    comparedniLetters();
+}
+
+function comparedniLetters(){
+    if (enteredLetter !== calculatedLetter){
+        console.log(`Incorrecto la letra correcta es la ${calculatedLetter}.\nEl DNI completo es: ${dniNumber}${calculatedLetter}`);
+    }
+    else {
+        console.log(`Correcto. El DNI completo es: ${dniNumber}${calculatedLetter}`);
+    }
+}
