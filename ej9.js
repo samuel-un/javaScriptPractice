@@ -8,15 +8,18 @@
  */
 
 function findMin(arr) {
-    let min = arr[0];
-    for (let i = 1; i < arr.length; i++) {
-        if (arr[i] < min) {
-            min = arr[i]
+    let numberMin = arr[0];
+
+    for (let i = 1; i < arr.length; i++){
+        
+        if (arr[i] < numberMin) {
+            numberMin = arr[i];
         }
     }
-    return min;
+    return numberMin;
 }
 
-// Ejemplo de uso 
-const numbers = [-1, 3, 4, 2, 6];
-console.log(findMin(numbers));
+// Ejemplo de uso
+
+let numbers = [-1, 3, 4, 2, 6];
+console.log("El número menor es: " + findMin(numbers));

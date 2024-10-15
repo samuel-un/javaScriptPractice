@@ -18,37 +18,3 @@
  * coinciden, se muestra un mensaje al usuario diciéndole que la letra que ha indicado no es
  * correcta. En otro caso, se muestra un mensaje indicando que el número y la letra de DNI son correctos.
  */
-
-let letters = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E', 'T'];
-
-let numberDNI = 72385678;
-let letterDNI = 'R'; 
-let generatedIndex;
-let generatedLetter;
-
-// Validación del num de DNI
-console.log ("Número introducido: " + numberDNI);
-
-if (numberDNI < 0 || numberDNI > 99999999) {
-    console.log("El número es incorrecto.");
-} else {
-    generatedLetra();
-}
-
-// Comparación de letras 
-console.log("Letra introducida: " + letterDNI);
-console.log("Letra generada: " + generatedLetter);
-
-if (letterDNI !== generatedLetter) {
-    console.log("La letra es incorrecta.");
-} else {
-    console.log("El número y la letra del DNI son correctos.")
-}
-
-
-
-function generatedLetra() {
-    generatedIndex = numberDNI % 23;
-    generatedLetter =letters[generatedIndex];
-}
-

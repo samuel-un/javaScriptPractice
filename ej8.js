@@ -6,11 +6,11 @@
  * Ejemplo del arreglo : [3, 5, 7, 1, 6]
  */
 
-function findMax(arr) {
+function findMax(arr){
     let max = arr[0];
-    for (let i = 1; i < arr.length; i++) {
+    for (let i = 1; i < arr.length; i++){
         if (arr[i] > max) {
-            max = arr[i]
+            max = arr[i];
         }
     }
     return max;
@@ -18,5 +18,5 @@ function findMax(arr) {
 
 // Ejemplo de uso
 
-const numbers = [3, 5, 7, 1, 6];
-console.log(findMax(numbers));
+const number = [3, 5, 7, 1, 6];
+console.log("El número mayor es: " + findMax(number));
