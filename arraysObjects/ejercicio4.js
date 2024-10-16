@@ -35,20 +35,15 @@
     }
 ]; */
 
-// 2. Función para encontrar un libro por su ID
 
-
-// 3. Función para encontrar un libro por su título (ignorando mayúsculas/minúsculas)
+// 2. Función para encontrar un libro por su título (ignorando mayúsculas/minúsculas)
 
 
 
-// 4. Función para encontrar el primer libro de un autor específico
+// 3. Función para encontrar el primer libro de un autor específico
 
 
-// 5. Función para encontrar el primer libro publicado después de un año específico
+// 4. Función para encontrar un libro que cumpla múltiples criterios
 
 
-// 6. Función para encontrar un libro que cumpla múltiples criterios
-
-
-// 7. Intentar encontrar un libro que no existe
+// 5. Intentar encontrar un libro que no existe

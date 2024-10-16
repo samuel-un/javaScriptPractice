@@ -1,7 +1,7 @@
 // Ejercicio: Manejo básico de arrays en JavaScript
-// const frutas = ["manzana", "banana", "naranja", "fresa", "uva"];
-// 1. Crea un array llamado 'frutas' con 5 nombres de frutas
 
+// 1. Crea un array llamado 'frutas' con 5 nombres de frutas
+// const frutas = ["manzana", "banana", "naranja", "fresa", "uva"];
 
 // 2. Imprime el array completo
 
