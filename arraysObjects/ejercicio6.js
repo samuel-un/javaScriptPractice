@@ -29,5 +29,3 @@
 
 // 10. Combinamos múltiples condiciones en un filtro
 
-
-// 11. Filtramos usando una lista de valores permitidos
