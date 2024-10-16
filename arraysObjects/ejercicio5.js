@@ -1,7 +1,8 @@
 // Ejercicio: Uso del método map en JavaScript
 
 // 1. Creamos un array de números
-// const numeros = [1, 2, 3, 4, 5];
+const numeros = [1, 2, 3, 4, 5];
+
 // 2. Utilizamos map para duplicar cada número
 
 
