@@ -478,13 +478,6 @@ console.log(typeof x); // Salida: undefined
 console.log(typeof y); // Salida: object
 ```
 
-#### ¿Puedes resolver el mayor enigma de JS?
-![Gran enigma de JS](img/js-enigma.webp)
-
-
-
-
-
 ## **5. Sentencias de Control**
 
 ### **5.1 Sentencias Condicionales**
@@ -535,8 +528,6 @@ switch (fruit) {
         console.log("Fruta desconocida.");
 }
 ```
-
-![switch meme](img/switch-meme.jpg)
 
 #### [Operador Condicional (ternario)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator)
 
@@ -770,8 +761,6 @@ Las funciones globales en JavaScript son funciones integradas que son parte del 
       }, 2000);
       clearInterval(intervalID);
       ```
-
-
 
 ### **7.2 Declaración de Funciones del Usuario**
 
