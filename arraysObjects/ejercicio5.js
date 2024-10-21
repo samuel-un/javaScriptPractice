@@ -55,7 +55,7 @@ console.log(nombresCapitalizados);
 
 // 8. Creamos una función que formatea un número como moneda
 function formatearComoMoneda(numero) {
-    return numero.toFixed(2) + '€';
+    return numero.toFixed(2) + ' €';
 }
 
 // 9. Utilizamos map con la función formatearComoMoneda
