@@ -310,7 +310,7 @@ Crea un nuevo array con todos los elementos que pasan la prueba implementada por
 const longNamedFruits = allFruits.filter(function(fruit) {
     return fruit.length > 5;
 });
-console.log(longNamedFruits); // Salida: ["Blueberry"]
+console.log(longNamedFruits); // Salida: ["Banana", "Blueberry"]
 ```
 
 #### 13. `reduce`
