@@ -1,6 +1,6 @@
 // Tercer challenge de 2023 midudev
 
-/*En el taller de Santa, un elfo travieso ha estado 
+/* En el taller de Santa, un elfo travieso ha estado 
 jugando en la cadena de fabricación de regalos, 
 añadiendo o eliminando un paso no planificado.
 
@@ -27,4 +27,4 @@ A tener en cuenta:
 
 Siempre habrá un paso de diferencia o ninguno.
 La modificación puede ocurrir en cualquier lugar de la cadena.
-La secuencia original puede estar vacía*/
+La secuencia original puede estar vacía */
